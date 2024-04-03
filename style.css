@@ -1,0 +1,247 @@
+*
+
+header {
+  
+  background-color:#ffffffe2;
+  color: #bea272;
+ 
+  padding:5px;
+}
+.faam{
+  position: absolute;
+  top: 2%;
+  padding: 5px 20px;
+  margin-bottom: 2px;
+}
+header img {
+      width: 90px; 
+      height: auto;
+      margin-right: 30px;
+      position: absolute;
+  right: 90%;
+  bottom: 578px;
+    }
+  
+.titlee {
+  color: #bea272;
+  position: absolute;
+  right: 82%;
+  bottom: 90%;
+
+}
+
+nav ul {
+  list-style-type: none;
+  margin-left: 90%;
+  padding: 5px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+  padding: 20px;
+
+}
+
+nav ul li a {
+  color: #ffffff;
+  transition: transform 0.3s;
+  text-decoration: none;
+  background-color: #bea272;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transform: translateY(1.2); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+nav ul li a:hover {
+  transform: scale(1.2); /* Bulking up on hover */
+  background: #bea272aa;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  transform: scale(1.2);
+  box-shadow: 0 0 20px #bea272;; 
+  
+
+}
+
+.tree  {
+    display: flex;
+    justify-content: center;
+   
+}
+.soil {
+    display: flex;
+    justify-content: center;
+}
+.soil img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    margin-top: 150px;
+    margin: 0 50px;
+    border: 5px solid rgb(238, 238, 238);
+}
+.tree img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    margin-top: 150px;
+    margin: 0 50px;
+    border: 5px solid rgb(238, 238, 238);
+   
+}
+.root  {
+    display: flex;
+    justify-content: center;
+}
+.root img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+       margin-top: 150px;
+    margin: 0 50px;
+    border: 5px solid rgb(238, 238,238);
+}
+.root span {
+    display: flex;
+    justify-content: center;
+
+  }
+  .tree img {
+    transition: transform 0.3s ease;
+  }
+  body{
+    background-color: #bea272;
+    
+  }
+
+  
+
+  .tree img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for both transform and box-shadow */
+  }
+  
+  .tree img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Apply box-shadow effect on hover */
+  }
+  .root img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for both transform and box-shadow */
+  }
+  
+  .root img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Apply box-shadow effect on hover */
+  }
+  .soil img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for both transform and box-shadow */
+  }
+  
+  .soil img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Apply box-shadow effect on hover */
+  }
+  h1{
+    display: flex;
+    font-family: Georgia;
+    justify-content: center;
+    font-size: 70px;
+    color: #000000;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  a{
+  text-decoration: none;
+  color: #000000;
+}
+  .heading{
+  font-size: 70px;
+  color: #fff9f9;
+}
+  
+  .container {
+
+  display: flex;
+  
+  }
+
+  
+  .profile {
+  
+  position: relative;
+  
+  width: 150px;
+
+  margin: 1px 10px;
+  
+  height: 150px;
+  
+  border-radius: 50%;
+  
+  cursor: pointer;
+  
+  box-shadow: 0 0 0 4px #fff, 0 0 0 5px #000000;
+  
+  transition: 0.2s;
+  }
+  
+  .profile:hover {
+  
+  box-shadow: 0 0 0 4px #fff, 0 0 0 6px #ffffff;
+  }
+
+  .content {
+  
+  position: absolute;
+  padding: 20px; 
+  min-width: 400px;
+   background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  visibility: hidden;
+   transition: 0.5s;
+  
+  opacity: 0;
+  
+  transform: translateY(-10px);
+  
+  }
+
+  .content .header { display: flex; align-items: center;
+  
+  } 
+  .content .header img {grid-column: 1/2; width: 80px; height: 80px; border-radius: 50%; object-fit: cover;
+  
+  }
+  
+  .content .header .infos { margin-left: 1em;
+  
+  }
+   .content .header .infos .name { font-size: 1.25em; color: #333;
+  
+  letter-spacing: 1px; font-size: 600;
+  
+  }
+  
+  .content .header .infos .title { font-size: 0.9em; color: #969696; font-weight: 500;
+  
+  }
+  
+  .content.body { padding: 1em;
+  
+  }
+  
+  .content.body p { font-size: 0.95em; color: #272727;
+  
+  }
+  
+  .profile:hover .content { visibility: visible; opacity: 1;
+  
+  transform: translatX(-15%) translateY(0px);
+  
+  }
+    
